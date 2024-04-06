@@ -17,3 +17,10 @@ License as published by the Free Software Foundation, either version 3 of the Li
 version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
 implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more 
 details at <http://www.gnu.org/licenses/>.
+
+### Installation
+ 
+```shell
+sudo apt-get install bc sysstat jq moreutils
+curl -s https://raw.githubusercontent.com/Tegizzle/FireMotD/master/FireMotD -o /tmp/FireMotD && chmod 755 /tmp/FireMotD && sudo /tmp/FireMotD -I -d && /tmp/FireMotD -G all -d
+``` 
